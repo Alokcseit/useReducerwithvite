@@ -6,7 +6,7 @@ function ReducerCounter(){
     
     return (
         <>
-        <div>Hi..</div>
+        <div>Hi..hello</div>
         <button onClick={()=>dispatch("increse")}>increse</button>
         <h3>{count}</h3>
         <button onClick={()=>dispatch("decrese")}>decrese</button>
